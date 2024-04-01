@@ -111,7 +111,7 @@ class MainDemo extends Component{
                             />
                           </a>
                         </div>
-                        <div className="content">
+                        {/* <div className="content">
                           <p className="blogtype">{value.category}</p>
                           <h4 className="title">
                             <a href="/blog-details">{value.title}</a>
@@ -124,7 +124,7 @@ class MainDemo extends Component{
                               Read More
                             </a>
                           </div>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   ))}

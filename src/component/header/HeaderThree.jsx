@@ -11,14 +11,14 @@ import Scrollspy from "react-scrollspy";
 import logoDefault from "../../assets/images/logo/logo.png";
 import logoLight from "../../assets/images/logo/logo-light.png";
 import logoDark from "../../assets/images/logo/logo-dark.png";
-import logoSymbolDark from "../../assets/images/logo/logo-symbol-dark.png";
+import logoSymbolDark from "../../assets/images/logo/foxLogo.png";
 import logoSymbolLight from "../../assets/images/logo/logo-symbol-light.png";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/" },
-  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/" },
-  { Social: <FaInstagram />, link: "https://www.instagram.com/" },
-  { Social: <FaTwitter />, link: "https://twitter.com/" },
+  // { Social: <FaFacebookF />, link: "https://www.facebook.com/MyLittleFoxxie/" },
+  { Social: <FaLinkedinIn />, link: "https://www.linkedin.com/in/vitor-raposo-519522183/" },
+  { Social: <FaInstagram />, link: "https://www.instagram.com/mylittlefoxxie/" },
+  // { Social: <FaTwitter />, link: "https://twitter.com/" },
 ];
 class HeaderThree extends Component {
   constructor(props) {
@@ -107,14 +107,14 @@ class HeaderThree extends Component {
                 </li>
                 <li>
                   <a onClick={this.closeSidebar} href="#portfolio">
-                    Portfolio
+                    Projects
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a onClick={this.closeSidebar} href="#blog">
                     Blog
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a onClick={this.closeSidebar} href="#contact">
                     Contact
@@ -132,14 +132,6 @@ class HeaderThree extends Component {
                   </li>
                 ))}
               </ul>
-            </div>
-            <div className="header-btn">
-              <a
-                className="rn-btn"
-                href="https://themeforest.net/checkout/from_item/25457315?license=regular"
-              >
-                <span>buy now</span>
-              </a>
             </div>
             {/* Start Humberger Menu  */}
             <div className="humberger-menu d-block d-lg-none pl--20">

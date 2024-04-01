@@ -177,14 +177,6 @@ class HomeParticles extends Component {
                   </li>
                 </Scrollspy>
               </nav>
-              <div className="header-btn">
-                <a
-                  className="rn-btn"
-                  href="https://themeforest.net/checkout/from_item/25457315?license=regular"
-                >
-                  <span>buy now</span>
-                </a>
-              </div>
               {/* Start Humberger Menu  */}
               <div className="humberger-menu d-block d-lg-none pl--20">
                 <span
