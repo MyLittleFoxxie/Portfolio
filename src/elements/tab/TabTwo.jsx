@@ -4,9 +4,9 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 class TabsTwo extends Component {
   render() {
     let tab1 = "Main skills",
-      tab2 = "Awards",
-      tab3 = "Experience",
-      tab4 = "Education & Certification";
+      tab2 = "Experience",
+      tab3 = "Education",
+      tab4 = "Certifications";
     const { tabStyle } = this.props;
     return (
       <div>
@@ -28,22 +28,22 @@ class TabsTwo extends Component {
                       <ul>
                         <li>
                           <a href="/service">
-                            User experience design <span> - UI/UX</span>
+                            Big Data <span> - Data Engineering</span>
                           </a>
-                          Delight the user and make it work.
+                          Data pipelines, Data lakes, Docker, Databricks...
                         </li>
                         <li>
                           <a href="/service">
-                            Web and user interface design
-                            <span> - Development</span>
+                            Full stack developer
+                            <span> - Software Engineer</span>
                           </a>
-                          Websites, web experiences, ...
+                          Websites, platforms, databases...
                         </li>
                         <li>
                           <a href="/service">
-                            Interaction design <span> - Animation</span>
+                            Machine Learning <span> - Data Science</span>
                           </a>
-                          I like to move it move it.
+                          Computer Vision, algorithms, evaluation...
                         </li>
                       </ul>
                     </div>
@@ -54,21 +54,34 @@ class TabsTwo extends Component {
                       <ul>
                         <li>
                           <a href="/service">
-                            Awwwards.com <span>- Winner</span>
+                            Full Stack Developer <span>- Vetta</span>
                           </a>{" "}
-                          2019 - 2024
+                          2023 - Current
                         </li>
                         <li>
                           <a href="/service">
-                            CSS Design Awards <span>- Winner</span>
+                            Trainee Analyst <span>- Accenture</span>
                           </a>{" "}
-                          2017 - 2024
+                          2022 - 2023
                         </li>
-                        <li>
+                      </ul>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="single-tab-content">
+                      <ul>
+                      <li>
                           <a href="/service">
-                            Design nominees <span>- site of the day</span>
+                            Post-graudate in Data Engineering <span>- PUC-Minas</span>
                           </a>{" "}
-                          2013- 2024
+                          2024 - Current
+                        </li>
+                      <li>
+                          <a href="/service">
+                            Bachelor in Computer Engineering <span>- CEFET-MG</span>
+                          </a>{" "}
+                          2018 - 2023
                         </li>
                       </ul>
                     </div>
@@ -79,49 +92,10 @@ class TabsTwo extends Component {
                       <ul>
                         <li>
                           <a href="/service">
-                            Sr. Front-end Engineer<span> - Google</span>
+                            Fluent English
+                            <span> - British Council IELTS</span>
                           </a>{" "}
-                          2018 - Current
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Front-end Engineer<span> - Microsoft</span>
-                          </a>{" "}
-                          2017 - 2024
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Software Engineer<span> - Alibaba </span>
-                          </a>{" "}
-                          2013- 2024
-                        </li>
-                      </ul>
-                    </div>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <div className="single-tab-content">
-                      <ul>
-                        <li>
-                          <a href="/service">
-                            BSc In CSE
-                            <span> - ABC University, Los Angeles, CA</span>
-                          </a>{" "}
-                          2010
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Diploma in Computer Science
-                            <span> - Gamma Technical Institute</span>
-                          </a>{" "}
-                          2009
-                        </li>
-                        <li>
-                          <a href="/service">
-                            Graphic Designer
-                            <span> - ABC Institute, Los Angeles, CA</span>
-                          </a>{" "}
-                          2007
+                          January 2024
                         </li>
                       </ul>
                     </div>

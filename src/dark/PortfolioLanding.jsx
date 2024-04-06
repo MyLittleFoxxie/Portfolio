@@ -11,7 +11,7 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
 
-import about from "../assets/images/about/about-8.jpg";
+import about from "../assets/images/about/aboutCover.jpg";
 import contactImg from "../assets/images/about/about-9.jpg";
 
 const SlideList = [
@@ -26,7 +26,7 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      'There are many variations of passages of Lorem Ipsum available, but the majority have suffered <a href="#">alteration</a> in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,';
+      'I am a full-stack software engineer with 3 years of experience in Java Spring Boot and Javascript, having worked in consulting for steel, mining, transport and energy. My background includes knowledge in Machine Learning and Data Engineering, as well as a little bit of programming languages such as Python and Rust.';
   const PostList = BlogContent.slice(0, 3);
   return (
     <div className="active-dark">
@@ -48,14 +48,16 @@ const PortfolioLanding = () => {
                     <div className={`inner ${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ""}
                       <h1 className="title">
-                        Hi, I’m Jone Doe <br />
+                        Hi, I’m Vitor Raposo <br />
                         <TextLoop>
-                          <span> JS Developer.</span>
-                          <span> UI/UX Designer.</span>
-                          <span> Content Writter.</span>
+                          <span> Data Engineer</span>
+                          <span> Java Developer</span>
+                          <span> Data Analyst</span>
+                          <span> JS Developer</span>
+                          <span> Data Scientist</span>
                         </TextLoop>{" "}
                       </h1>
-                      <h2>based in USA.</h2>
+                      <h2>based in Brazil.</h2>
                       {value.description ? (
                         <p className="description">{value.description}</p>
                       ) : (
@@ -150,7 +152,7 @@ const PortfolioLanding = () => {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                    <h2 className="title">My Latest Project</h2>
+                    <h2 className="title">My Latest Projects</h2>
                     <p>
                       There are many variations of passages of Lorem Ipsum
                       available, but the majority have suffered alteration.
@@ -181,7 +183,7 @@ const PortfolioLanding = () => {
       {/* End Portfolio Area */}
 
       {/* Start Blog Area */}
-      <div id="blog" className="fix">
+      {/* <div id="blog" className="fix">
         <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
           <div className="container">
             <div className="row align-items-end">
@@ -226,7 +228,7 @@ const PortfolioLanding = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Blog Area */}
 
       {/* Start COntact Area */}
