@@ -12,7 +12,7 @@ import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
 
 import about from "../assets/images/about/aboutCover.jpg";
-import contactImg from "../assets/images/about/about-9.jpg";
+import contactImg from "../assets/images/about/about-10.jpg";
 
 const SlideList = [
   {
@@ -123,10 +123,9 @@ const PortfolioLanding = () => {
             <div className="row">
               <div className="col-lg-12">
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                  <h2 className="title">My Awesome Service</h2>
+                  <h2 className="title">My Services</h2>
                   <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
+                    Services encompassing software engineering, data science and data engineering fields.
                   </p>
                 </div>
               </div>
@@ -145,7 +144,7 @@ const PortfolioLanding = () => {
       {/* End Service Area  */}
 
       {/* Start Portfolio Area */}
-      <div id="portfolio" className="fix">
+      {/* <div id="portfolio" className="fix">
         <div className="portfolio-area ptb--120 bg_color--1">
           <div className="portfolio-sacousel-inner">
             <div className="container">
@@ -179,7 +178,7 @@ const PortfolioLanding = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End Portfolio Area */}
 
       {/* Start Blog Area */}

@@ -11,7 +11,7 @@ import Scrollspy from "react-scrollspy";
 import logoDefault from "../../assets/images/logo/logo.png";
 import logoLight from "../../assets/images/logo/logo-light.png";
 import logoDark from "../../assets/images/logo/logo-dark.png";
-import logoSymbolDark from "../../assets/images/logo/foxLogo.png";
+import logoSymbolDark from "../../assets/images/logo/foxLogo.jpg";
 import logoSymbolLight from "../../assets/images/logo/logo-symbol-light.png";
 
 const SocialShare = [
@@ -102,14 +102,14 @@ class HeaderThree extends Component {
                 </li>
                 <li>
                   <a onClick={this.closeSidebar} href="#service">
-                    Service
+                    Services
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a onClick={this.closeSidebar} href="#portfolio">
                     Projects
                   </a>
-                </li>
+                </li> */}
                 {/* <li>
                   <a onClick={this.closeSidebar} href="#blog">
                     Blog
